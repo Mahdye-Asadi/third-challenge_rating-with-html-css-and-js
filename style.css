@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1, h2 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.container {
+    background-color: hsl(216, 22%, 13%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    width: 400px;
+    height: 380px;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin-top: 40px;
+}
+
+.container img {
+    background-color: hsl(212, 18%, 18%);
+    padding: 18px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.container p {
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(212, 18%, 18%);
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: 0.5s
+}
+
+.btn:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.submit {
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 0.2rem;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-you {
+    background-color: hsl(216, 22%, 13%);
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+}
+
+.text .select {
+    background-color: hsl(212, 18%, 18%);
+    color: hsl(25, 93%, 62%);
+    border-radius: 60px;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    height: 30px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.text .appreciate {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.back {
+    background-color: hsl(212, 18%, 18%);
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 0.2rem;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.back:hover {
+    background-color: hsl(25, 92%, 56%);
+    color: white;
+    transition: 0.5s
+}
